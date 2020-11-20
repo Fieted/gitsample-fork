@@ -105,7 +105,6 @@ public class CalculatorUI extends JFrame implements TextProvider,
 	}
 
 	private void setupCommandButtons() {
-		// command buttons
 		cmdButtonsPanel = new JPanel();
 		cmdButtonsPanel.setLayout(new GridLayout(1, 0));
 		buttonsPanel.add(cmdButtonsPanel, BorderLayout.CENTER);
