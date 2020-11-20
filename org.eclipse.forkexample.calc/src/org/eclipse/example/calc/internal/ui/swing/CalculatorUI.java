@@ -26,7 +26,7 @@ import org.eclipse.example.calc.Operations;
 import org.eclipse.example.calc.internal.Calculator;
 import org.eclipse.example.calc.internal.TextProvider;
 
-/*
+/**
  * A simple calculator featuring a Swing UI.
  */
 public class CalculatorUI extends JFrame implements TextProvider,
@@ -34,7 +34,7 @@ public class CalculatorUI extends JFrame implements TextProvider,
 	private static final long serialVersionUID = 1L;
 
 	private Calculator calculator;
-// test
+
 	private JTextField display;
 
 	private JPanel buttonsPanel;
